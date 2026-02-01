@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Anita Sharma",
+    "experience": 8,
+    "skills": ["Leadership", "Safety", "Operations"],
+    "crisis": 90,
+    "sustainability": 85,
+    "motivation": 95
+  },
+  {
+    "id": 2,
+    "name": "Rahul Verma",
+    "experience": 6,
+    "skills": ["Planning", "Sustainability", "Quality"],
+    "crisis": 80,
+    "sustainability": 88,
+    "motivation": 87
+  },
+  {
+    "id": 3,
+    "name": "John Doe",
+    "experience": 10,
+    "skills": ["Operations", "Maintenance", "Leadership"],
+    "crisis": 70,
+    "sustainability": 75,
+    "motivation": 80
+  }
+]
