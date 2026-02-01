@@ -70,29 +70,31 @@ The focus of this project is **clarity, structure, and usability**, not producti
 
 ## Project Structure
 
+```text
 recycling-manager-assignment/
-│
-├── frontend/                          # React + Vite dashboard
+├── frontend/                     # React + Vite dashboard
 │   ├── package.json
 │   ├── vite.config.js
 │   ├── index.html
 │   └── src/
-│       ├── main.jsx                   # App entry point (MantineProvider)
-│       ├── App.jsx                    # Leaderboard, heatmap, candidate cards
+│       ├── main.jsx              # App entry point (MantineProvider)
+│       ├── App.jsx               # Leaderboard, heatmap, candidate cards
 │       └── data/
-│           └── candidates.json        # Mock candidate + score data
+│           └── candidates.json   # Mock candidate and score data
 │
-├── backend/                           # Database design (MySQL-compatible)
-│   ├── schema.sql                     # Tables: candidates, evaluations, rankings
-│   └── sample_data.sql                # 40 candidate records (generated)
+├── backend/                      # Database design (MySQL-compatible)
+│   ├── schema.sql                # Tables: candidates, evaluations, rankings
+│   ├── sample_data.sql           # 40 candidate records (generated)
+│   └── generate_candidates.js    # Faker.js data generation
 │
-├── ai-prompts/                        # AI evaluation prompts
-│   └── prompts.md                     # Crisis, Sustainability, Team Motivation
+├── ai-prompts/                   # AI evaluation prompts
+│   └── prompts.md                # Crisis, Sustainability, Team Motivation
 │
-├── dashboard.png                      # Visual proof of working dashboard
+├── dashboard                     # Visual proof of working dashboard
 │   
 │
-└── README.md                          # Setup instructions & explanation
+└── README.md                     # Setup instructions and explanation
+```
 
 
 ## How to Run the Frontend
